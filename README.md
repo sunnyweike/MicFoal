@@ -2,11 +2,11 @@
 
 MicFoal - Multiclass Imbalanced and Concept Drift Network Traffic Classification Framework Based on Online Active Learning - which includes a configurable supervised learner for the initialization of a network traffic classification model, an active learning method with a hybrid label request strategy, a label sliding window group, a sample training weight formula and an adaptive adjustment mechanism for the label cost budget based on periodic performance evaluation. In addition, a novel uncertain label request strategy based on a variable least confidence threshold vector is designed to address the problem of the multiclass imbalance ratio changing or even the number of classes changing over time. Experiments performed based on 8 well-known real network traffic datasets demonstrate that MicFoal is more effective and efficient than several state-of-the-art learning algorithms.
 
-For more details about MicFoal , please check out our papers [1, 2].
+For more details about MicFoal and CALMID , please check out our papers [1, 2].
 
-[1] Weike Liu, Hang Zhang, Zhaoyun Ding, Qingbao Liu, Cheng Zhu.  *A comprehensive active learning method for multiclass imbalanced data streams with concept drift*, Knowledge-Based Systems, Volume 215, 5 March 2021.
+[1] Weike Liu, Zhaoyun Ding, Hang Zhang, Qingbao Liu, Cheng Zhu. *Multiclass Imbalanced and Concept Drift Network Traffic Classification Framework Based on Online Active Learning*, Expert Systems with Applications,  under review.
 
-[2] Weike Liu, Zhaoyun Ding, Hang Zhang, Qingbao Liu, Cheng Zhu. *Multiclass Imbalanced and Concept Drift Network Traffic Classification Framework Based on Online Active Learning*, Expert Systems with Applications,  under review.
+[2] Weike Liu, Hang Zhang, Zhaoyun Ding, Qingbao Liu, Cheng Zhu.  *A comprehensive active learning method for multiclass imbalanced data streams with concept drift*, Knowledge-Based Systems, Volume 215, 5 March 2021.
 
 ## 
 
@@ -34,7 +34,7 @@ The compared parameters include the size of the sliding label window, ***sizeWin
 
 ### Data
 
-Number of data streams: 1
+Number of data stream: 1
 
 - Entry10
 
@@ -67,7 +67,7 @@ The purpose of the experiments is to analyse the contribution of the following c
 
 ### Data
 
-Number of data streams: 1
+Number of data stream: 1
 
 - Entry10
 
