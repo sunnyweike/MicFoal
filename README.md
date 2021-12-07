@@ -18,13 +18,14 @@ For more details about MicFoal and CALMID , please check out our papers [1, 2].
 
 ## Source code
 
-1. MicFoal.java
+- MicFoal.java
 
 
 
 ## Experimental environment
 
-moa-release-2019.05
+- moa-release-2019.05
+-  The default parameter settings are ***sizeWindow*** = 500 and ***b*** = 0.2.
 
 
 
@@ -38,26 +39,23 @@ Number of data stream: 1
 
 - Entry10
 
-### Methods
+### Parameter settings
 
-Number of Methods: 16
-
-1. MicFoal with different parameter settings
-   -  The value of ***b*** falls with in {0.15, 0.2, 0.25, 0.3}
-   - The value of ***sizeWindow*** falls with in {300, 500, 700, 1000}
+-  The value of ***b*** falls with in {0.15, 0.2, 0.25, 0.3}
+- The value of ***sizeWindow*** falls with in {300, 500, 700, 1000}
 
 ### Metrics
 
-1. AvFβ (β=1)
-2. CBA
-3. mGM
-4. CEN
+- AvFβ (β=1)
+- CBA
+- mGM
+- CEN
 
 ### Experimental evaluation results
 
-1. Details：It includes the detailed evaluation results of experiment recorded after repeated 10 parameter sensitivity experiments.
-2. Mean: Average results of 10 repeated experiments.
-3. Std: Standard deviation results of 10 repeated experiments.
+1. Details: The detailed evaluation results of the parameter (***sizeWindow*** **,** ***b***) sensitivity experiments based on Entry10
+2. Mean: Average results of 10 repeated experiments
+3. Std: Standard deviation results of 10 repeated experiments
 
 
 
@@ -73,32 +71,30 @@ Number of data stream: 1
 
 ### Methods
 
-Number of Methods: 12
-
-1. MicFoal with different component settings
-   -  2 initial supervised learners:
-     - Adaptive Random Forests (ARF)
-     - Leveraging Bagging (LB)
-   - The hybrid strategy proposed in this paper and 3 traditional label request strategies:
-     - Hybrid label request strategy (H)
-     - The uncertainty strategy with a variable threshold (VU)
-     - The uncertainty strategy with a random and variable threshold (RV)
-     - The uncertainty strategy with selective sampling (SS)
-   - Sample training weight formula (S)
-   - Adaptive adjustment mechanism of the label cost budget based on periodic performance evaluation (P)
+MicFoal with different component settings: 
+-  2 initial supervised learners:
+  - Adaptive Random Forests (ARF)
+  - Leveraging Bagging (LB)
+- The hybrid strategy proposed in this paper and 3 traditional label request strategies:
+  - Hybrid label request strategy (H)
+  - The uncertainty strategy with a variable threshold (VU)
+  - The uncertainty strategy with a random and variable threshold (RV)
+  - The uncertainty strategy with selective sampling (SS)
+- Sample training weight formula (S)
+- Adaptive adjustment mechanism of the label cost budget based on periodic performance evaluation (P)
 
 ### Metrics
 
-1. AvFβ (β=1)
-2. CBA
-3. mGM
-4. CEN
+- AvFβ (β=1)
+- CBA
+- mGM
+- CEN
 
 ### Experimental evaluation results 
 
-1. Details：It includes the detailed evaluation results of experiment recorded after repeated 10 component dedication analysis experiments.
-2. Mean: Average results of 10 repeated experiments.
-3. Std: Standard deviation results of 10 repeated experiments.
+1. Details: The detailed evaluation results of the comparison experiments with different configurations of components of MicFoal
+2. Mean: Average results of 10 repeated experiments
+3. Std: Standard deviation results of 10 repeated experiments
 
 
 
@@ -121,27 +117,27 @@ Number of data streams: 8
 
 ### Methods
 
-Number of Methods: 4
+Number of methods: 4
 
-1. MicFoal 
-2. ARFre
-3. CALMID
-4. RAL
+- MicFoal 
+- ARFre
+- CALMID
+- RAL
 
 ### Metrics
 
-1. Recall
-2. Precision
-3. AvFβ (β=1)
-4. CBA
-5. mGM
-6. CEN
+- Recall
+- Precision
+- AvFβ (β=1)
+- CBA
+- mGM
+- CEN
 
 ### Experimental evaluation results 
 
-1. Details：It includes the detailed evaluation results of experiment recorded after repeated 10 comparative experiments.
-2. Mean: Average results of 10 repeated experiments.
-3. Std: Standard deviation results of 10 repeated experiments.
+1. Details: The detailed evaluation results of experiment recorded after repeated 10 comparative experiments
+2. Mean: Average results of 10 repeated experiments
+3. Std: Standard deviation results of 10 repeated experiments
 
 
 
