@@ -4,7 +4,7 @@ MicFoal - Multiclass Imbalanced and Concept Drift Network Traffic Classification
 
 For more details about MicFoal and CALMID , please check out our papers [1, 2].
 
-[1] Weike Liu, Zhaoyun Ding, Hang Zhang, Qingbao Liu, Cheng Zhu. *Multiclass Imbalanced and Concept Drift Network Traffic Classification Framework Based on Online Active Learning*, Expert Systems with Applications,  under review.
+[1] Weike Liu, Zhaoyun Ding, Hang Zhang, Qingbao Liu, Cheng Zhu. *Multiclass Imbalanced and Concept Drift Network Traffic Classification Framework Based on Online Active Learning*
 
 [2] Weike Liu, Hang Zhang, Zhaoyun Ding, Qingbao Liu, Cheng Zhu.  *A comprehensive active learning method for multiclass imbalanced data streams with concept drift*, Knowledge-Based Systems, Volume 215, 5 March 2021.
 
