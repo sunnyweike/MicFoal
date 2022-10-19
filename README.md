@@ -146,3 +146,5 @@ Number of methods: 4
 ## Detailed results of supplemental experiments
 
 We supplemented the experiments to measure the number of times that the over-budget situation and the uncertainty situation  occurs simultaneously on five imbalanced real world network traffic datasets. All experiments were repeated five times with the random seeds set from 1 to 5 for all active learning label request strategies. The complete detailed results of each test can be found on the website.
+
+The files in this folder are uploaded using Git LFS. Please install Git LFS before downloading the project.
